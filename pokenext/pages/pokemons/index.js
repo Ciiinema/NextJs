@@ -33,7 +33,7 @@ export default function Pokemons ({listPokemons}) {
             <div className={styles.pokemons_container}>
                 <div className={styles.pokemon_titulo}>
                     <h1>Poke<span>Next</span></h1>
-                    <Image src="/img/pokeball.png" width={"60"} height={"60"}/>
+                    <Image src="/img/pokeball.png" width={"60"} height={"60"} alt={"Pokeball"}/>
                 </div>
                 <div className={styles.pokemon_container}>
                     {listPokemons.map((pokemon)=>(

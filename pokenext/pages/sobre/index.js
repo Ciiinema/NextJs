@@ -7,7 +7,7 @@ export default function Sobre () {
     return (
         <div className={styles.texto_sobre}>
             <div>
-                <Image src="/img/charizard.png" width={"500"} height={"500"}/>
+                <Image src="/img/charizard.png" width={"500"} height={"500"} alt={"Charizard"}/>
             </div>
             <div className={styles.texto}>
                 <h1>Sobre o projeto</h1>
