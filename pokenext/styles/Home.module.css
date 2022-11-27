@@ -1,0 +1,24 @@
+.texto_home {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20vw;
+    font-size: 1.2em;
+}
+.texto_home .texto {
+    width: 400px;
+}
+.texto_home .texto h1 span {
+    padding-right: 20px;
+    color: #f00;
+}
+.texto_home .texto a {
+    color: #666;
+    text-decoration: none;
+}
+.texto_home .texto a:hover {
+    text-decoration: underline;
+}
+.texto_home .texto div {
+    margin-top: 20%;
+}

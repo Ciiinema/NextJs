@@ -1,0 +1,112 @@
+.container {
+    margin: 30px 0;
+}
+.botao_voltar {
+    background-color: #777;
+    color: #fff;
+    padding: 8px 14px;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 7px;
+    transition: background 400ms ease-in-out;
+}
+.botao_voltar:hover {
+    background-color: #999;
+}
+.pokemon_container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pokemon_resumo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.pokemon_resumo h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+.pokemon_resumo img {
+    margin-top: 20px;
+}
+.pokemon_resumo h2 {
+    margin-top: 15px;
+    background-color: #f00;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.pokemon_dados {
+    font-size: 1.5em;
+}
+.pokemon_dados ul {
+    list-style-type: none;
+}
+.pokemon_dados ul li {
+    padding: 10px 0;
+}
+.tipo span{
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 7px;
+    text-transform: uppercase;
+} 
+.type_fire span {
+    background-color: #f00;
+}
+.type_ghost span {
+    background-color: #5e0b59;
+}
+.type_grass span {
+    background-color: #229e09;
+}
+.type_poison span {
+    background-color: #9c3695;
+}
+.type_normal span {
+    background-color: #dbda78;
+}
+.type_flying span {
+    background-color: #5ebbbb;
+}
+.type_fighting span {
+    background-color: #ffaf01;
+}
+.type_psychic span {
+    background-color: #cc01ff;
+}
+.type_electric span {
+    background-color: #ffe601;
+}
+.type_dark span {
+    background-color: #360044;
+}
+.type_ice span {
+    background-color: #689dff;
+}
+.type_water span {
+    background-color: #00f;
+}
+.type_fairy span {
+    background-color: rgb(255, 159, 242);
+}
+.type_ground span {
+    background-color: rgb(204, 122, 0);
+}
+.type_bug span {
+    background-color: rgb(173, 204, 0);
+}
+.type_rock span {
+    background-color: rgb(204, 150, 0);
+}
+.type_steel span {
+    background-color: rgb(131, 131, 131);
+}

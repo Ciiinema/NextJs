@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.cabecalho {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho .logomarca{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cabecalho nav{
+    display: flex;
+    align-items: center;
+}
+.cabecalho nav ul {
+    display: flex;
+    gap: 10px;
+}
+.cabecalho nav ul li {
+    list-style-type: none;
+}
+.cabecalho nav ul li a{
+    color: #fff;
+    padding: 8px 10px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    transition: background 400ms ease-in-out;
+}
+.cabecalho nav ul li a:hover{
+    background-color: #666;
+}
+.rodape {
+    margin-top: 30px;
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.rodape a {
+    color: #999;
+    text-decoration: none;
+}
+.rodape a:hover{
+    color: #777;
+}
+
+main {
+    min-height: 98vh;
+}

@@ -1,0 +1,13 @@
+.texto_sobre {
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20vw;
+    font-size: 1.2em;
+}
+.texto_sobre .texto {
+    width: 400px;
+}
+.texto_sobre .texto div {
+    margin-top: 20%;
+}
